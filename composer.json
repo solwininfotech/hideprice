@@ -1,0 +1,22 @@
+{
+    "name": "solwin/hideprice",
+    "description": "Hide Product Price is the most powerful extension to hide product price and Add to Cart button from non registered customers.",
+    "type": "magento2-module",
+    "version": "2.0.2",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\HidePrice\\": ""
+        }
+    }
+}
